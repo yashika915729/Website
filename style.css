@@ -179,6 +179,10 @@ a{
     border-radius: 25px;
     cursor:pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: transform 0.5s;
+}
+.pro:hover{
+    transform:scale(1.1);
 }
 .pro img{
     width: 100%;
